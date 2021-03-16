@@ -5,6 +5,9 @@ using System.Text;
 
 namespace Cryptography.Wrappers.Certificates
 {
+    /// <summary>
+    /// Certificate information interface
+    /// </summary>
     public interface ICertificateInfo
     {
         /// <summary>

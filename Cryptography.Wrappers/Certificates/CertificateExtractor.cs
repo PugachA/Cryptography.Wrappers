@@ -7,7 +7,10 @@ using System.Text;
 
 namespace Cryptography.Wrappers.Certificates
 {
-    public class CertificateExtractor
+    /// <summary>
+    /// Certificate extractor
+    /// </summary>
+    public static class CertificateExtractor
     {
         /// <summary>
         /// Find certificate using filters in instanse of <see cref="ICertificateInfo"/>
